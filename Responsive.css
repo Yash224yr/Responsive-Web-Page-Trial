@@ -42,3 +42,29 @@ h6{
     font-size: 25px;
     color: white;
 }
+#mid{
+    padding: 3rem;
+    display: flex;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.option{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.option h2{
+    background-color: gray;
+    padding: 19px 12px;
+}
+.option h5{
+    background-color: rgba(128, 128, 128, 0.279);
+    padding: 24.6px 7px;
+    width: 240px;
+}
