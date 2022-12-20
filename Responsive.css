@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 #wrapper {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     background-color: gray;
@@ -80,67 +81,83 @@ h6 {
     padding: 24.6px 7px;
     width: 240px;
 }
-@media all and (max-width:1480px){
-    .option h5{
+
+@media all and (max-width:1480px) {
+    .option h5 {
         width: 200px;
     }
 }
-@media all and (max-width:1360px){
-    .right{
+
+@media all and (max-width:1360px) {
+    .right {
         margin-left: 20px;
     }
-    .option h5{
+
+    .option h5 {
         width: 150px;
     }
 }
-@media all and (max-width:1300px){
-    .right{
+
+@media all and (max-width:1300px) {
+    .right {
         margin-left: 50px;
     }
-    .left img{
+
+    .left img {
         height: 200px;
     }
 }
-@media all and (max-width:1170px){
-    #mid{
-        flex-wrap: wrap
+
+@media all and (max-width:1170px) {
+    #mid {
+        flex-wrap: wrap;
+        height: 100%;
     }
-    .left{
+
+    .left {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .left img{
+
+    .left img {
         height: 200px;
     }
-    .right{
+
+    .right {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .option h5{
+
+    .option h5 {
         width: 230px;
     }
-    .option{
+
+    .option {
         margin-top: 10px;
     }
 
 }
-@media all and (max-width:985px){
-    .option h5{
+
+@media all and (max-width:985px) {
+    .option h5 {
         width: 150px;
     }
 }
-@media all and (max-width:775px){
-    .right{
+
+@media all and (max-width:775px) {
+    .right {
         margin-left: 20px;
     }
-    .option h5{
+
+    .option h5 {
         width: 270px;
     }
 }
-@media all and (max-width:610px){
-    .right{
+
+@media all and (max-width:610px) {
+    .right {
         margin-left: 10px;
     }
 }
