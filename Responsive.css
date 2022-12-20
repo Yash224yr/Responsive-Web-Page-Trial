@@ -1,32 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#wrapper{
+
+#wrapper {
     height: 100vh;
     display: flex;
     justify-content: center;
     background-color: gray;
     align-items: center;
 }
-.content{
+
+.content {
     background-color: white;
     height: 80vh;
     width: 80vw;
 }
-h1{
+
+h1 {
     text-align: center;
     margin: 40px 0 20px 0;
 }
-.bar{
+
+.bar {
     height: 8px;
     width: 95%;
     margin: 0 auto;
     background-color: gray;
     position: relative;
 }
-.num{
+
+.num {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -38,33 +43,104 @@ h1{
     justify-content: center;
     align-items: center;
 }
-h6{
+
+h6 {
     font-size: 25px;
     color: white;
 }
-#mid{
+
+#mid {
     padding: 3rem;
     display: flex;
 }
-.left{
+
+.left {
     width: 40%;
 }
-.right{
+
+.right {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
 }
-.option{
+
+.option {
     display: flex;
     align-items: center;
     margin: 0 20px;
 }
-.option h2{
+
+.option h2 {
     background-color: gray;
     padding: 19px 12px;
 }
-.option h5{
+
+.option h5 {
     background-color: rgba(128, 128, 128, 0.279);
     padding: 24.6px 7px;
     width: 240px;
+}
+@media all and (max-width:1480px){
+    .option h5{
+        width: 200px;
+    }
+}
+@media all and (max-width:1360px){
+    .right{
+        margin-left: 20px;
+    }
+    .option h5{
+        width: 150px;
+    }
+}
+@media all and (max-width:1300px){
+    .right{
+        margin-left: 50px;
+    }
+    .left img{
+        height: 200px;
+    }
+}
+@media all and (max-width:1170px){
+    #mid{
+        flex-wrap: wrap
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .left img{
+        height: 200px;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .option h5{
+        width: 230px;
+    }
+    .option{
+        margin-top: 10px;
+    }
+
+}
+@media all and (max-width:985px){
+    .option h5{
+        width: 150px;
+    }
+}
+@media all and (max-width:775px){
+    .right{
+        margin-left: 20px;
+    }
+    .option h5{
+        width: 270px;
+    }
+}
+@media all and (max-width:610px){
+    .right{
+        margin-left: 10px;
+    }
 }
